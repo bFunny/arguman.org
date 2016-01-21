@@ -111,7 +111,7 @@ BASE_DOMAIN = 'arguman.royburns.cn'
 
 AVAILABLE_LANGUAGES = (
     'tr',
-    'en',
+    # 'en',
     'ch',
 )
 
