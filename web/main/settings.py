@@ -110,8 +110,8 @@ DEFAULT_LANGUAGE = 'ch'
 BASE_DOMAIN = 'arguman.royburns.cn'
 
 AVAILABLE_LANGUAGES = (
-    # 'tr',
-    # 'en',
+    'tr',
+    'en',
     'ch',
 )
 
