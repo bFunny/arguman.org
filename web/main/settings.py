@@ -60,8 +60,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'i18n.middleware.SubdomainLanguageMiddleware',
-    'i18n.middleware.MultipleProxyMiddleware'
+    # 'i18n.middleware.SubdomainLanguageMiddleware',
+    # 'i18n.middleware.MultipleProxyMiddleware'
 )
 
 LOCALE_PATHS = (
@@ -112,7 +112,7 @@ BASE_DOMAIN = 'arguman.royburns.cn'
 AVAILABLE_LANGUAGES = (
     # 'tr',
     # 'en',
-    'ch'
+    'ch',
 )
 
 LANGUAGE_CODE_MAPPING = {
