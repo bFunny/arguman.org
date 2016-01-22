@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="{% static "css/normalize.css" %}" />
     <link rel="stylesheet" href="{% static "css/main.css" %}?v=3.2.2" />
     <link rel="icon" type="image/png" href="{% static "img/favicon.png" %}" />
-    <link rel="image_src" type="image/png" href="http://arguman.org{% static "img/logo-large.png" %}" />
-    <meta property="og:image" content="http://arguman.org{% static "img/logo-large.png" %}"/>
+    <link rel="image_src" type="image/png" href="http://arguman.royburns.cn{% static "img/logo-large.png" %}" />
+    <meta property="og:image" content="http://arguman.royburns.cn{% static "img/logo-large.png" %}"/>
     <meta name="google-site-verification" content="g-YRAePbSzX5_eMCqQvkkYqecMlQNAIxhRXmeAKMmiQ" />
     {% block extra-meta %}{% endblock %}
 </head>
@@ -50,14 +50,10 @@
             <li class="social-links">
                 {% get_current_language as language %}
                 {% trans "Languages:" %}
-                <a {% if language == "en" %}class="active" {% endif %}
-                    href="http://en.arguman.org">{% trans "English" %}</a>
-                <a {% if language == "tr" %}class="active" {% endif %}
-                    href="http://tr.arguman.org">{% trans "Turkish" %}</a>
                 <a {% if language == "zh-hans" %}class="active" {% endif %}
-                    href="http://ch.arguman.org">{% trans "Chinese" %}</a><br>
-                {% trans "Follow on twitter:" %} <a href="https://twitter.com/argumentmapping" target="_blank">@argumentmapping</a> <br />
-		        Subreddit: <a href="https://www.reddit.com/r/arguman" target="_blank">/r/arguman</a>
+                    href="http://ch.arguman.royburns.cn">{% trans "Chinese" %}</a><br>
+                <br />
+
             </li>
         </ul>
     </nav>
@@ -70,16 +66,12 @@
     <div class="container">
         <p>
             {% blocktrans trimmed %}
-                arguman.org is an open-source project. you can follow the
-                <a href="http://github.com/arguman/arguman.org">organization</a> on github.
+                本站基于开源项目Arguman,由<a href="http://www.royburns.cn" target="_blank">Roy T.Burns</a>二次开发并运营国内版本.
             {% endblocktrans %}
         </p>
         <p>
-            <a href="/tos">{% trans "Terms of Service" %}</a> |
-            <a href="https://github.com/fatiherikli/arguman.org/issues">{% trans "Feedback" %}</a> |
-            <a href="https://paypal.me/arguman">{% trans "Donate" %}</a> |
-            <a href="mailto:argumananalizi@gmail.com">argumananalizi@gmail.com</a>
-    </p>
+            <a href="mailto:roy.burns@163.com">roy.burns@163.com</a>
+        </p>
     </div>
 </footer>
 {% endblock %}
