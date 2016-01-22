@@ -105,7 +105,7 @@ REDIRECTED_PATHS = (
     '/new-argument'
 )
 
-DEFAULT_LANGUAGE = 'cn'
+DEFAULT_LANGUAGE = 'ch'
 
 BASE_DOMAIN = 'arguman.royburns.cn'
 
