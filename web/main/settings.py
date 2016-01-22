@@ -105,7 +105,7 @@ REDIRECTED_PATHS = (
     '/new-argument'
 )
 
-DEFAULT_LANGUAGE = 'ch'
+DEFAULT_LANGUAGE = 'cn'
 
 BASE_DOMAIN = 'arguman.royburns.cn'
 
@@ -113,10 +113,13 @@ AVAILABLE_LANGUAGES = (
     'tr',
     # 'en',
     'ch',
+    'cn',
 )
 
 LANGUAGE_CODE_MAPPING = {
-    'ch': 'zh-Hans'
+    'ch': 'zh-Hans',
+    'cn': 'zh-cn',
+
 }
 
 LANGUAGE_CODE_MAPPING_REVERSED = {
